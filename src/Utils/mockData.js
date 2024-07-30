@@ -73,3 +73,26 @@ export const usersData = [
     phone_number: "+1321456789",
   },
 ];
+
+export const availableBooksData = [
+  {
+    book_id: 1,
+    available_count: 4
+  },
+  {
+    book_id: 2,
+    available_count: 2
+  },
+  {
+    book_id: 3,
+    available_count: 6
+  },
+  {
+    book_id: 4,
+    available_count: 5
+  },
+  {
+    book_id: 5,
+    available_count: 3
+  }
+]

@@ -28,13 +28,13 @@ const UserBookBorrow = sequelize.define(
     },
     toDate: {
       type: DataTypes.DATE,
-      allowNull: false,
-      defaultValue: sequelize.literal("'infinity'"),
+      allowNull: true,
     },
   },
   {
     tableName: "user_book_borrow",
     timestamps: false,
+    primaryKey: ['book_id', 'user_id']
   }
 );
 
